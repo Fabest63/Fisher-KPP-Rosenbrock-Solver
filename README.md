@@ -22,12 +22,12 @@ This equation describes biological population dynamics and wave propagation in e
 ### 1. Wavefront Propagation (2D)
 Comparison between the numerical approximation (Rosenbrock) and the reference solution at $t=1$. The overlap confirms the method's accuracy.
 
-![2D Comparison](fisher_2d_comparison.png)
+![2D Comparison](fisher_2d_comparison.fig)
 
 ### 2. Time Evolution (3D)
 Full spatiotemporal evolution of the population density $u(x,t)$. Note the smooth transition despite the stiffness of the diffusion term.
 
-![3D Surface](fisher_3d_evolution.png)
+![3D Surface](fisher_3d_evolution.fig)
 ## Usage
 1.  Run `fisher_rosenbrock_solver.m` in MATLAB.
 2.  Parameters for grid resolution ($m, n$) can be adjusted inside the script.
