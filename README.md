@@ -22,7 +22,7 @@ This equation describes biological population dynamics and wave propagation in e
 ### 1. Wavefront Propagation (2D)
 Comparison between the numerical approximation (Rosenbrock) and the reference solution at $t=1$. The overlap confirms the method's accuracy.
 
-![2D Solutions](2D Solutions.png)
+![2D Solutions](2D_Solutions.png)
 
 ### 2. Time Evolution (3D)
 Full spatiotemporal evolution of the population density $u(x,t)$. Note the smooth transition despite the stiffness of the diffusion term.
