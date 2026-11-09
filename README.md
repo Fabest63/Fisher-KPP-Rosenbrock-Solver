@@ -27,7 +27,7 @@ Comparison between the numerical approximation (Rosenbrock) and the reference so
 ### 2. Time Evolution (3D)
 Full spatiotemporal evolution of the population density $u(x,t)$. Note the smooth transition despite the stiffness of the diffusion term.
 
-![3D Surface](fisher_3d_evolution.png)
+![3D Evolution](3D_Evolution.png)
 ## Usage
 1.  Run `fisher_rosenbrock_solver.m` in MATLAB.
 2.  Parameters for grid resolution ($m, n$) can be adjusted inside the script.
